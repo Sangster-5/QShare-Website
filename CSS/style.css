@@ -1,0 +1,20 @@
+::placeholder { 
+    color: white !important;
+    opacity: 1;
+}
+
+.card {
+    position: relative;
+    transition: all 0.25s ease-in-out;
+    top: 0;
+}
+
+.card:hover{
+    position: relative;
+    top: -20px;
+}
+
+@font-face {
+    font-family: "Nexa Rust";
+    src: url("../Assets/nexa-rust/NexaRustSans-Black.otf");
+}
