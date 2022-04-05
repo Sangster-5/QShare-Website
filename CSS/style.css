@@ -18,3 +18,7 @@
     font-family: "Nexa Rust";
     src: url("../Assets/nexa-rust/NexaRustSans-Black.otf");
 }
+
+@media screen and (max-width: 996px) {
+    
+}

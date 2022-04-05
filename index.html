@@ -18,23 +18,24 @@
     }
     </script>
     <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
 </head>
 <body style="height: 100vh; width: 100vw;">
     <div class="flex items-center bg-emerald-500 h-1/6 shadow-sm grid grid-cols-3 gap-4 rounded-b-2xl">
         <img class="h-20 mx-8" src="./Assets/QShare.png" alt="">
         <h1 class="text-white font-bold text-4xl m-auto" style="font-family: Nexa Rust;">Qshare</h1>
         <div class="grid justify-items-end mx-8">
-            <input class="border-b-2 outline-none w-1/2 text-white" style="background-color: transparent;" type="text" placeholder="Search">
+            <input class="border-b-2 outline-none w-1/2 text-white invisible sm:visible" style="background-color: transparent;" type="text" placeholder="Search">
         </div>
     </div>
 
-    <div class="flex items-center justify-items-center grid grid-cols-2 gap-6 h-4/5 mt-8 p-9 px-28">
-        <div class="grid shadow-2xl bg-white justify-items-center rounded-xl h-full w-4/5 card">
+    <div class="flex items-center justify-items-center grid sm:grid-cols-2 gap-6 h-4/5 mt-8 p-9 sm:px-28">
+        <div class="grid shadow-2xl bg-white justify-items-center rounded-xl h-full w-full sm:w-4/5 card">
             <h1 class="text-zinc-500 font-bold text-xl mt-3" style="font-family: Nexa Rust;">NFT Collection</h1>
             <img src="" alt="NFT IMAGE">
             <img src="./Assets/OpenSeaLogo.png" class="h-10 absolute bottom-10" alt="OpenSea">
         </div>
-        <div class="grid shadow-2xl bg-white justify-items-center rounded-xl h-full w-4/5 card">
+        <div class="grid shadow-2xl bg-white justify-items-center rounded-xl h-full w-full sm:w-4/5 card">
             <h1 class="text-zinc-500 font-bold text-xl mt-3" style="font-family: Nexa Rust;">iOS Application</h1>
             <img src="" class="" alt="APP IMAGE">
             <img src="./Assets/DownloadOnAppStore.png" class="h-10 absolute bottom-10" alt="OpenSea">
@@ -47,7 +48,7 @@
             <h1 class="text-emerald-500 font-bold text-xl" style="font-family: Nexa Rust;">QShare</h1>
             <p class="text-zinc-500 text-md mb-5 mt-1">QShare is a up and coming app that aims to provide users the ability to create collaborative queues for songs and podcasts. It works by the user connecting their Spotify or (Soon) Apple Music to the app and creating a Queue/Party. These Parties and Queues can be joined by other users who can collarborate on the Queue either by voting or adding the next song or podcast, removing the need for a single aux or DJ while allowing everyone to listen to something enjoyable.</p>
         </div>
-        <div class="grid grid-cols-2 w-4/5 m-auto gap-4 mb-5">
+        <div class="grid sm:grid-cols-2 w-4/5 m-auto gap-4 mb-5">
             <div class="m-auto w-full h-full bg-white rounded-2xl p-8 mt-5 hover:shadow-2xl shadow-lg">
                 <h1 class="text-emerald-500 font-bold text-xl" style="font-family: Nexa Rust;">How To Download</h1>
                 <p class="text-zinc-500 text-md mb-5 mt-1">Currently QShare is not up for donwload but will be in the near future and progress is made. At first QShare will be on Apple TestFlight to gain access to this you must own an NFT from our collection. Later on in the future it will be a free download on the App and Google Play Store.</p>
@@ -59,7 +60,13 @@
         </div>
         <div class="grid grid-rows-1 grid-cols-2 mt-5 items-center w-4/5 m-auto">
             <h1 style="font-family: Nexa Rust;" class="text-white grid justify-items-end items-center text-xl">Coming Soon To</h1>
-            <img src="./Assets/testflightlogo.png" style="height: 75px;" alt="">
+            <img src="./Assets/testflightlogo.png" class="h-18 sm:h-20" alt="">
+        </div>
+        <div class="flex justify-end gap-1 px-4">
+            <i class="lni lni-discord text-white"></i>
+            <i class="lni lni-instagram-original text-white"></i>
+            <i class="lni lni-reddit text-white"></i>
+            <i class="lni lni-tiktok text-white"></i>
         </div>
     </div>
 </body>
